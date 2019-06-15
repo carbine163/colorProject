@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100%;
+  max-height:100%;
+  background-color: #c7efcf;
+}
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+#header div{
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 4%;
+}
+
+#header-img{
+  width: 30px;
+  margin-left: 4%;
+}
+
+#header-img + p {
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: #4a4a4a;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin-right: 6%;
+}
+
+.nav-link{
+  color: #4a4a4a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 10px;
+  letter-spacing: 1px;
+}
+
+.main{
+  margin: 20% auto; 
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #4a4a4a;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.email{
+  width: 40%;
+  margin: 2% auto;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  text-indent: 20px;
+}
+.button{
+  width: 20%;
+  margin: 0 auto;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: yellow;
+  font-weight: 600;
+}
+
+#features{
+  width: 75%;
+  margin: 0 auto;
+}
+
+#features article{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.features-icon{
+  width: 36px
+}
+
+.up-time{
+  margin-left: 100px;
+}
+.up-time h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #4a4a4a;
+  letter-spacing: 1.2px;
+}
+.up-time p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #4a4a4a;
+  margin-top: 5px;
+}
+
+
+#works{
+  width: 75%;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#works video{
+  width: 550px;
+  height: 250px;
+  margin-right: 10%;
+  border-radius: 7px;
+}
+
+
+#works div h5{
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 4%;
+  color: #4a4a4a;
+}
+
+#works div p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 150%;
+}
+
+#works div button{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 4%;
+  padding: 7px 16px;
+  border-radius: 5px;
+  border:none;
+  background-color: yellow;
+  letter-spacing: 1px;
+}
+
+
+#pricing{
+  width: 75%;
+  margin: 0 auto 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+
+.card{
+  width: 250px;
+  background-color: white;
+  text-align: center;
+}
+
+.card h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #4a4a4a;
+  letter-spacing: 1.5px;
+  padding: 10px 0 10px;
+  background-color: paleturquoise;
+}
+.card p{
+  padding-top: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.card ul{
+  list-style-type: none;
+  margin-top: 30px;
+}
+.card ul li {
+  padding: 4px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.card button{
+  margin: 20px 0 10px; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  padding: 4px 7px;
+  border-radius: 5px;
+  border:none;
+  background-color: yellow;
+  /* color: white; */
+}
+
+footer{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+footer div{
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+footer div p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin-left: 20px;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+footer p {
+  margin-left: auto;
+  margin-top: 1%;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #4a4a4a;
+  font-weight: 500;
+  margin-bottom: 3%;
+}
+
+
+
+@media (max-width: 1324px){
+  *{
+    font-family: sans-serif;
+  }
+}
